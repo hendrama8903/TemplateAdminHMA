@@ -117,7 +117,7 @@
 <div class="page-wrap">
   <div class="brand-header">
     <img src="{{ asset('images/logo.svg') }}" alt="{{ config('app.name') }}">
-    <h1>{{ config('app.name') }} <span class="accent">Admin</span></h1>
+    <h1>{{ config('app.name') }}</h1>
     <p>{{ config('app.description') }}</p>
   </div>
 

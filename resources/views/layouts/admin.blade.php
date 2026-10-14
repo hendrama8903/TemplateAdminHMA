@@ -36,7 +36,7 @@
                 <a class="adm-rail-ic" href="{{ url('/') }}" title="Dashboard">
                     <img src="{{ asset('images/logo.svg') }}" alt="{{ config('app.name') }}">
                 </a>
-                <div class="adm-rail-vtext">{{ config('app.name') }} <em>ADMIN</em> PANEL</div>
+                <div class="adm-rail-vtext">{{ config('app.name') }}</div>
                 <button type="button" class="adm-rail-collapse" onclick="admToggleCollapse()" title="Show / hide menu">
                     <i class="fa fa-angle-double-left"></i>
                 </button>
